@@ -2,8 +2,9 @@ Joaquin Corazza
 Genaro Espinola
 German Ewens Lairet
 
-a)
-b)
+a) Para actualizar mi repositorio debo sincronizarlo con el repositorio original 
+al cual le hice el fork
+b) Solo puede sincronizar su fork con el repositorio original
 c) Solo puede sincronizar su fork con el repositorio original
 d) No, cuando se actualiza un fork git intenta conservar los cambios propios
 e)
