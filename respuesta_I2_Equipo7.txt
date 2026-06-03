@@ -7,4 +7,22 @@ al cual le hice el fork
 b) Solo puede sincronizar su fork con el repositorio original
 c) Solo puede sincronizar su fork con el repositorio original
 d) No, cuando se actualiza un fork git intenta conservar los cambios propios
-e)
+e) El paso a paso es el siguiente:
+    Beta crea el repositorio
+    Alfa y Gamma hacen un fork desde GitHub
+    Alfa y Gamma descargan en forma local mediante los comandos:
+        desde dentro de la carpeta "git clone" para clonar el repositorio
+        Alfa y Gamma editan el archivo fork.txt
+        lo agregan mediante el comando "git add ." para agregar todos los archivos editados
+        luego con el comando "git commit -m "" " para guardar los cambios
+        por ultimo con el comando "git push" se suben al repositorio
+    Beta crea los archivos NuevoDato.txt y respuesta_I2_Equipo7.txt
+    Alfa y Gamma hacen un fork desde GitHub 
+    Actualizan las respuestas mediante los comandos:
+        git add. 
+        git commit -m ""
+        git push
+    Gamma desde GitHub hace un pull request
+    Beta acepta
+    Alfa hace un sync fork y sube sus respuestas mediante un pull request
+    Beta acepta
